@@ -1,0 +1,23 @@
+i[class*="slid-arrow"] {
+  animation: moving 4s infinite;
+}
+
+@keyframes moving {
+  0%,
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  70%,
+  90% {
+    translate: 10px;
+  }
+  5%,
+  15%,
+  25%,
+  60%,
+  80% {
+    translate: 20px;
+  }
+}

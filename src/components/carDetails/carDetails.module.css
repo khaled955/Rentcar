@@ -1,0 +1,5 @@
+div[class *="img-car-content"]{
+    background-image: url(../../assets//imges/landing-page//sec-7//Vector.png);
+    background-position: center;
+    background-size: cover;
+}

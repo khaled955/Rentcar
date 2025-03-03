@@ -1,0 +1,55 @@
+div[class *="main-text"]{
+animation: moving-down 2s forwards;
+}
+
+
+div[class *="main-img"]{
+    background-image: url(../../assets/imges/landing-page/Frame.png);
+    transform: scale(.4);
+    animation: bigger 2s forwards;
+    translate: 300px;
+}
+
+img[class *="car-img"]{
+transform: translateX(200px);
+ animation: car 2s forwards
+
+}
+
+
+@keyframes car {
+  to{
+
+   transform: translateX(-50px);
+
+  }
+
+}
+
+
+
+@keyframes moving-down {
+    to{
+        transform: translateY(15%);
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    @keyframes moving-down {
+        to{
+            transform: translateY(80%);
+        }
+    }
+}
+
+
+
+@keyframes bigger {
+    to{
+        transform: scale(1);
+        translate: 100px;
+
+    }
+}

@@ -1,0 +1,5 @@
+div[class *="contact-form"]{
+    background-image: url(../../assets/imges/landing-page/sec-7/Vector.png);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,13 @@
+div[class *="testo-box"]{
+
+background-image: url(../../assets/imges/landing-page/sec-6/bg-sec6.png);
+background-position: center;
+
+}
+
+
+div[class *="testo-slide"]{
+
+width: 80%;
+
+}
