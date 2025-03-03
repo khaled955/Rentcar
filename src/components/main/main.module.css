@@ -1,16 +1,16 @@
-div[class *="main-text"]{
+.mainText{
 animation: moving-down 2s forwards;
 }
 
 
-div[class *="main-img"]{
-    background-image: url(../../assets/imges/landing-page/Frame.png);
+.mainImg{
+    background-image: url('/Frame.png');
     transform: scale(.4);
     animation: bigger 2s forwards;
     translate: 300px;
 }
 
-img[class *="car-img"]{
+.carImg{
 transform: translateX(200px);
  animation: car 2s forwards
 
